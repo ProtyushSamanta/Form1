@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1>Customer Survey Form</h1>
+    </div>
+    <div class="container">
+      <form action="" name="myForm" onsubmit="return validateform()" onreset="return clearform()">
+        <div class="content" id="firstname">
+          <label class="content-head">First Name</label>
+          <br />
+          <input type="text" id="ffirstname" required />
+        </div>
+        <div class="content" id="lastname">
+          <label class="content-head">Last Name</label>
+          <br />
+          <input type="text" id="flastname" required />
+        </div>
+        <div class="content" id="DOB">
+          <label class="content-head">Date of Birth</label>
+          <br />
+          <input type="date" id="fDOB" placeholder="DD/MM/YYYY" required/>
+        </div>
+        <div class="content" id="country">
+          <label class="content-head">Country</label>
+          <br />
+          <select name="fcountry" id="fcountry" required>
+            <option value="">Select your country</option>
+            <option value="Afganistan">Afganistan</option>
+            <option value="Brazil">Brazil</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Russia">Russia</option>
+            <option value="Vietnam">Vietnam</option>
+          </select>
+        </div>
+        <div class="content" id="profession">
+          <label class="content-head">Profession</label>
+          <br />
+          <input type="text" id="fprofession" placeholder="Enter your profession" required/>
+        </div>
+        <div class="content" id="email">
+          <label class="content-head">Email</label>
+          <br />
+          <input type="email" id="femail" required/>
+        </div>
+        <div class="content" id="phone">
+          <label class="content-head">phone</label>
+          <br />
+          <input type="phone" id="fphone" required/>
+          <div class="formerror"></div>
+        </div>
+        <div class="content" id="gender">
+          <label class="content-head">Gender</label>
+          <div id="fgender" aria-required="true">
+            <input type="radio" value="fmale" name="gend" id="fmale" />Male
+            <input type="radio" value="ffemale" name="gend" id="ffemale" />Female
+            <input type="radio" value="fother" name="gend" id="fother" />Other 
+            <span class="formerror"></span>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" class="but" value="submit" />
+          <input type="reset" class="res" value="reset">
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2018 Customer Survey Form. All Rights are Reserved</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(59, 145, 251);
+    padding: 30px;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 145, 251);
+}
+form{
+    height: 764px;
+    width: 480px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.content{
+    padding: 10px;
+}
+#ffirstname{
+    font-size: 15px;
+    padding-left: 5px;
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+#flastname{
+    font-size: 15px;
+    padding-left: 5px; 
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+#fDOB{
+    font-size: 15px;
+    padding-left: 5px; 
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+#fcountry{
+    font-size: 15px;
+    padding-left: 5px; 
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+#fgender{
+    font-size: 19px;
+    margin: 5px 0;
+}
+#fprofession{
+    font-size: 15px;
+    padding-left: 5px; 
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+#femail{
+    font-size: 15px;
+    padding-left: 5px; 
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+#fphone{
+    font-size: 15px;
+    padding-left: 5px; 
+    margin: 5px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 266px;
+    height: 30px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.but{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin: 30px 40px;
+    background-color: rgb(59, 145, 251);
+    color: white;
+}
+.res{
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(59, 145, 251);
+    color: white;
+}
+.content-head{
+    font-size: 20px;
+}
+.formerror{
+    color: red;
+    height: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(59, 145, 251);
+    color: white;
+}
+#fmale{
+    margin: 6px;
+}
+#ffemale{
+    margin: 6px;
+}
+#fother{
+    margin: 6px;
+}
